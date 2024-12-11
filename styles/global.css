@@ -17,5 +17,16 @@
   --base-gray-500: #c0c4ce;
   --base-gray-600: #e2e4e9;
 
-  
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", sans-serif;
+  --font-family-inconsolata: "Maven Pro", sans-serif;
+
+  --title-lg: ;
+  --title-md: ;
+  --title-sm: ;
+
+  --subtitle: ;
+
+  --text-md: ;
+  --text-sm: ;
 }
