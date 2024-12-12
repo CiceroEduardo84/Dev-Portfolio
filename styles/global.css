@@ -19,14 +19,14 @@
 
   --font-family-asap: "Asap", sans-serif;
   --font-family-inconsolata: "Inconsolata", sans-serif;
-  --font-family-inconsolata: "Maven Pro", sans-serif;
+  --font-family-Maven-Pro: "Maven Pro", sans-serif;
 
-  --title-lg: ;
-  --title-md: ;
-  --title-sm: ;
+  --title-lg: 800 56px/120% var(--font-family-asap);
+  --title-md: 800 24px/120% var(--font-family-asap);
+  --title-sm: 800 16px/120% var(--font-family-asap);
 
-  --subtitle: ;
+  --subtitle: 600 20px/120% var(--font-family-inconsolata);
 
-  --text-md: ;
-  --text-sm: ;
+  --text-md: 400 16px/140% var(--font-family-Maven-Pro);
+  --text-sm: 400 14px/140% var(--font-family-Maven-Pro);
 }
