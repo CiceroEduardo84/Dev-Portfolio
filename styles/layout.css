@@ -1,0 +1,108 @@
+.intro {
+  height: auto;
+  max-width: 1366px;
+
+  margin-top: 7.5rem;
+
+  background-image: url(../assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 94px;
+}
+
+.info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+  padding-inline: 180px;
+
+  & header {
+    max-width: 680px;
+
+    & .avatar {
+      position: relative;
+
+      margin: 8px;
+
+      padding-bottom: 56px;
+      justify-content: center;
+      align-items: center;
+
+      #code-icon {
+        position: absolute;
+        top: 45%;
+        left: 52.5%;
+        max-width: 32px;
+      }
+
+      & .circle {
+        justify-content: center;
+        align-items: center;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        border: 2px solid var(--principal-red);
+
+        img {
+          width: 87.27px;
+          border-radius: 50%;
+          object-fit: cover;
+          aspect-ratio: 1/1;
+        }
+      }
+    }
+
+    & .description {
+      flex-direction: column;
+      align-items: center;
+
+      & h3 {
+        color: var(--base-gray-500);
+
+        & span {
+          color: var(--principal-red);
+        }
+      }
+
+      & h1 {
+        color: var(--base-gray-600);
+      }
+
+      & p {
+        margin-top: 1.25rem;
+        color: var(--base-gray-400);
+      }
+    }
+  }
+
+  & .tags {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    & .cardTag {
+      height: 2.4rem;
+      width: 7rem;
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      font: var(--text-md);
+      color: var(--base-gray-500);
+      background-color: var(--base-gray-300);
+      border-radius: 1rem;
+    }
+  }
+}
+
+.intro > img {
+  width: 2rem;
+  height: 2rem;
+}

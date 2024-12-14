@@ -16,18 +16,27 @@
     />
   </head>
   <body>
-    <div id="app">
-      <div class="intro">
-        <div class="info">
+    <main id="app">
+      <section class="intro flex">
+        <div class="info flex">
           <header>
-            <div class="User">
-              <img src="assets/img/User.jpg" alt="" />
-              <img src="assets/icons/Code.svg" alt="" />
+            <div class="avatar flex">
+              <img
+                id="code-icon"
+                src="./assets/icons/Code.svg"
+                alt="ícone código"
+              />
+              <div class="circle flex">
+                <img
+                  src="https://avatars.githubusercontent.com/u/132598847?v=4&size=64"
+                  alt=""
+                />
+              </div>
             </div>
 
-            <div class="description">
-              <h3>Hello World! Meu nome é <span>Martina Santos</span> e sou</h3>
-              <h1>Desenvolvedora Fullstack</h1>
+            <div class="description flex">
+              <h3>Hello World! Meu nome é <span>Cicero Eduardo</span> e sou</h3>
+              <h1>Desenvolvedor Fullstack</h1>
               <p>
                 Transformo necessidades em aplicações reais, evolventes e
                 funcionais. Desenvolvo sistemas através da minha paixão pela
@@ -37,42 +46,42 @@
             </div>
           </header>
 
-          <div class="tags">
-            <div class="cardTag">
+          <div class="tags flex">
+            <span class="cardTag gitHub">
               <img src="assets/icons/GitHub.svg" alt="" />
               <p>GitHub</p>
-            </div>
+            </span>
 
-            <div class="cardTag">
+            <span class="cardTag html">
               <img src="assets/icons/HTML.svg" alt="" />
               <p>HTML</p>
-            </div>
+            </span>
 
-            <div class="cardTag">
+            <span class="cardTag css">
               <img src="assets/icons/CSS.svg" alt="" />
               <p>CSS</p>
-            </div>
+            </span>
 
-            <div class="cardTag">
+            <span class="cardTag javascript">
               <img src="assets/icons/JavaScript.svg" alt="" />
               <p>Javascript</p>
-            </div>
+            </span>
 
-            <div class="cardTag">
+            <span class="cardTag react">
               <img src="assets/icons/React.svg" alt="" />
               <p>React</p>
-            </div>
+            </span>
 
-            <div class="cardTag">
+            <span class="cardTag nodejs">
               <img src="assets/icons/Node.js.svg" alt="" />
               <p>Node.js</p>
-            </div>
+            </span>
           </div>
         </div>
-        <img src="assets/icons/CaretDoubleDown.svg" alt="" />
-      </div>
 
+        <img src="assets/icons/CaretDoubleDown.svg" alt="setas para baixo" />
+      </section>
       
-    </div>
+    </main>
   </body>
 </html>
