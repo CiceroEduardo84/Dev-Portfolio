@@ -25,7 +25,7 @@
   --title-md: 800 1.5rem/120% var(--font-family-asap);
   --title-sm: 800 1rem/120% var(--font-family-asap);
 
-  --subtitle: 600 1.25rem/120% var(--font-family-inconsolata);
+  --subtitle: 500 1.25rem/120% var(--font-family-inconsolata);
 
   --text-md: 400 1rem/140% var(--font-family-Maven-Pro);
   --text-sm: 400 0.875/140% var(--font-family-Maven-Pro);
@@ -36,14 +36,18 @@ body {
   background-color: var(--base-gray-200);
 }
 
-h1{
+h1 {
   font: var(--title-lg);
+}
+
+h2 {
+  font: var(--title-md);
 }
 
 h3 {
   font: var(--subtitle);
 }
 
-p{
+p {
   font: var(--text-sm);
 }
