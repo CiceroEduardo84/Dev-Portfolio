@@ -1,16 +1,19 @@
+.containerProjects,
+.containerServices,
+.containerContacts,
 .containerIntro {
-  height: auto;
-
-  padding-top: 7.5rem;
-  margin-bottom: 3.4rem;
-
-  background-image: url(../assets/Background_Intro.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.containerIntro {
+  height: auto;
+  padding-top: 7.5rem;
+  margin-bottom: 3.4rem;
+  background-image: url(../assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 94px;
 
   & .boxInfo {
@@ -18,7 +21,6 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-
     padding-inline: 180px;
 
     & header {
@@ -111,9 +113,6 @@
 .containerProjects,
 .containerServices,
 .containerContacts {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 56px;
 
   & header {
@@ -212,11 +211,6 @@
   background-image: url(../assets/Background_Contacts.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 48px;
 
   & header {
@@ -237,7 +231,6 @@
   & .boxLinks {
     width: 100%;
     max-width: 400px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,11 +240,9 @@
     & .cardLink {
       width: 100%;
       padding: 21px;
-
       display: flex;
       align-items: center;
       justify-content: space-between;
-
       border-radius: 0.5rem;
       background-color: var(--base-gray-300);
 
